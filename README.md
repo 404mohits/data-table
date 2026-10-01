@@ -1,16 +1,64 @@
-# React + Vite
+# React User Management Table
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly React JS project for managing users with a professional table UI.
 
-Currently, two official plugins are available:
+This project demonstrates how to create a User Management Dashboard using React components, state management, forms, modals, and CRUD operations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- User Management Dashboard
+- Display users in a table
+- Add new user
+- Edit existing user
+- Delete user
+- Modal-based user form
+- Form validation
+- Responsive design
+- Clean and professional UI
+- Reusable React components
+- CRUD operations using React state
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- React JS
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+
+---
+
+## 📁 Project Structure
+
+```text
+table/
+│
+├── public/
+│
+├── src/
+│   │
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── Modal.jsx
+│   │   ├── Modal.css
+│   │   ├── Navbar.jsx
+│   │   ├── Navbar.css
+│   │   ├── Table.jsx
+│   │   ├── Table.css
+│   │   ├── UserForm.jsx
+│   │   └── UserForm.css
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+│
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
